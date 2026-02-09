@@ -69,7 +69,7 @@ export default function Footer() {
             </div>
             <div
                 className="max-w-7xl mx-auto border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
-                <p className="text-white/20 text-xs tracking-widest uppercase">© 2024 COREKEYS International Realty.</p>
+                <p className="text-white/20 text-xs tracking-widest uppercase">© {new Date().getFullYear()} COREKEYS International Realty.</p>
                 <div className="flex gap-10 text-[10px] uppercase tracking-[0.2em] text-white/20">
                     <a className="hover:text-white transition-colors" href="#">Privacy Policy</a>
                     <a className="hover:text-white transition-colors" href="#">Terms of Service</a>

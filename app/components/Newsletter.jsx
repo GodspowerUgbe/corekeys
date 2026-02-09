@@ -18,7 +18,7 @@ export default function Newsletter() {
                         <p className="text-white/60 text-lg max-w-md">Get early access to off-market listings and exclusive
                             market insights delivered to your inbox.</p>
                     </div>
-                    <div className="bg-white/5 p-2 rounded-full border border-white/10 flex flex-col sm:flex-row gap-2">
+                    <div className="bg-white/5 p-4 rounded-xl md:p-2 md:rounded-full border border-white/10 flex flex-col sm:flex-row gap-2">
                         <input
                             className="flex-1 bg-transparent border-none text-white placeholder:text-white/40 focus:ring-0 px-8 py-4"
                             placeholder="Email Address" type="email" />
