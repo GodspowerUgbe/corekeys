@@ -32,18 +32,18 @@ export default function Hero() {
 
                 <motion.div variants={scaleIn}>
                     <div
-                    className="w-full max-w-4xl mx-auto bg-white rounded-full shadow-2xl p-2 flex flex-col md:flex-row items-center gap-2 group transition-all duration-500 hover:scale-[1.01]">
-                    <div className="flex-1 w-full flex items-center px-6 py-2">
+                    className="w-full max-w-4xl mx-auto bg-white rounded-xl  md:rounded-full shadow-2xl px-16 py-8 md:px-2 py-2 flex flex-col md:flex-row items-center gap-2 group transition-all duration-500 hover:scale-[1.01]">
+                    <div className="w-60 flex-1 md:w-full flex items-center px-6 py-2 mx-auto ">
                         <span className="material-symbols-outlined text-primary/40 mr-3">location_on</span>
                         <input
-                            className="w-full bg-transparent border-none text-slate-800 placeholder:text-slate-400 focus:ring-0 text-sm font-medium"
+                            className="w-40 md:w-full bg-transparent border-none text-slate-800 placeholder:text-slate-400 focus:ring-0 text-sm font-medium"
                             placeholder="Location" type="text" />
                     </div>
                     <div className="hidden md:block w-px h-8 bg-slate-100"></div>
-                    <div className="flex-1 w-full flex items-center px-6 py-2">
+                    <div className="flex-1 w-60 md:w-full flex items-center px-6 py-2">
                         <span className="material-symbols-outlined text-primary/40 mr-3">home_work</span>
                         <select
-                            className="w-full bg-transparent border-none text-slate-800 focus:ring-0 text-sm font-medium appearance-none cursor-pointer">
+                            className="w-40 md:w-full bg-transparent border-none text-slate-800 focus:ring-0 text-sm font-medium appearance-none cursor-pointer">
                             <option>Property Type</option>
                             <option>Modern Villa</option>
                             <option>Penthouse</option>
@@ -51,10 +51,10 @@ export default function Hero() {
                         </select>
                     </div>
                     <div className="hidden md:block w-px h-8 bg-slate-100"></div>
-                    <div className="flex-1 w-full flex items-center px-6 py-2">
+                    <div className="flex-1 w-60 mx-auto md:w-full flex items-center px-6 py-2">
                         <span className="material-symbols-outlined text-primary/40 mr-3">payments</span>
                         <select
-                            className="w-full bg-transparent border-none text-slate-800 focus:ring-0 text-sm font-medium appearance-none cursor-pointer">
+                            className="w-40 md:w-full bg-transparent border-none text-slate-800 focus:ring-0 text-sm font-medium appearance-none cursor-pointer">
                             <option>Price Range</option>
                             <option>$1M - $5M</option>
                             <option>$5M - $15M</option>
